@@ -12,7 +12,8 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
-require("lazy").setup(plugins, opts)
+-- Any lua file in ~/.config/nvim/lua/plugins/*.lua will be automatically merged in the main plugin spec
+require("lazy").setup("plugins")
 
 -- settings
 vim.opt.tabstop = 2
@@ -21,3 +22,6 @@ vim.opt.shiftwidth = 0
 vim.opt.number = true
 vim.opt.title = true
 vim.opt.cursorline = true
+
+-- from catppuccin/nvim colorscheme
+vim.cmd.colorscheme "catppuccin-mocha"

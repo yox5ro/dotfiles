@@ -24,6 +24,7 @@ return {
 			nested = true,
 			callback = open_fern,
 		})
+		vim.g["fern#default_hidden"] = 1
 	end,
 	dependencies = {
 		{ "lambdalisue/nerdfont.vim" },

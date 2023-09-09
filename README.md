@@ -7,5 +7,5 @@
 
 ## Depencencies
 - [Neovim](https://github.com/neovim/neovim)
-- [NERD FONTS](https://github.com/ryanoasis/nerd-fonts)i
+- [NERD FONTS](https://github.com/ryanoasis/nerd-fonts)
 

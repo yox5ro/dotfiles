@@ -1,5 +1,10 @@
 {
   "catppuccin": { "branch": "main", "commit": "a937d546f4783a1ff67f84043d2d7871ad4ecd83" },
+  "ddc-filter-matcher_head": { "branch": "main", "commit": "16727bb785c7fdbd4c5ed7a5f3da8d2f7355f8fd" },
+  "ddc-source-around": { "branch": "main", "commit": "1c8366e1526204412a787eef3e31448796776382" },
+  "ddc-ui-native": { "branch": "main", "commit": "f4a396e5354e6abedc297a484122e0ca8e3cf485" },
+  "ddc.vim": { "branch": "main", "commit": "e64a42678d9a098f20beea092a5e720a1edf3510" },
+  "denops.vim": { "branch": "main", "commit": "68f607d93a9758d15c0d63d3268aa420ddd29edd" },
   "fern-git-status.vim": { "branch": "master", "commit": "151336335d3b6975153dad77e60049ca7111da8e" },
   "fern-hijack.vim": { "branch": "master", "commit": "5989a1ac6ddffd0fe49631826b6743b129992b32" },
   "fern-renderer-nerdfont.vim": { "branch": "master", "commit": "1e90a78ab5510fbcedc85abeb9a251d978726935" },

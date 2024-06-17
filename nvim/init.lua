@@ -27,7 +27,7 @@ vim.opt.cursorline = true
 -- Any lua file in ~/.config/nvim/lua/plugins/*.lua will be automatically merged in the main plugin spec
 require("lazy").setup("plugins")
 
-vim.cmd.colorscheme("kanagawa-dragon")
+vim.cmd.colorscheme("vscode")
 
 local function open_nvim_tree(data)
 
@@ -70,3 +70,9 @@ vim.api.nvim_create_autocmd("LspAttach", {
   end,
 })
 
+
+local builtin = require('telescope.builtin')
+vim.keymap.set('n', '<leader>ff', builtin.find_files, {})
+vim.keymap.set('n', '<leader>fg', builtin.live_grep, {})
+vim.keymap.set('n', '<leader>fb', builtin.buffers, {})
+vim.keymap.set('n', '<leader>fh', builtin.help_tags, {})
